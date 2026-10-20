@@ -1,0 +1,33 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "上门服务" } },
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/service/detail", "style": { "navigationBarTitleText": "服务详情" } },
+    { "path": "pages/order/create", "style": { "navigationBarTitleText": "确认预约" } },
+    { "path": "pages/orders/list", "style": { "navigationBarTitleText": "我的订单" } },
+    { "path": "pages/order/detail", "style": { "navigationBarTitleText": "订单详情" } },
+    { "path": "pages/my/index", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/my/addresses", "style": { "navigationBarTitleText": "服务地址管理" } },
+    { "path": "pages/my/coupons", "style": { "navigationBarTitleText": "我的优惠券" } },
+    { "path": "pages/my/stored", "style": { "navigationBarTitleText": "储值余额" } },
+    { "path": "pages/my/points", "style": { "navigationBarTitleText": "我的积分" } },
+    { "path": "pages/my/cards", "style": { "navigationBarTitleText": "我的会员卡" } }
+  ],
+  "tabBar": {
+    "color": "#93a29a",
+    "selectedColor": "#2f6b4f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页" },
+      { "pagePath": "pages/orders/list", "text": "订单" },
+      { "pagePath": "pages/my/index", "text": "我的" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "上门服务",
+    "navigationBarBackgroundColor": "#2f6b4f",
+    "backgroundColor": "#f5f6f4"
+  }
+}

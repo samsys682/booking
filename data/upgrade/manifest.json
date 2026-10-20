@@ -1,0 +1,13 @@
+{
+  "product": "预约上门服务系统",
+  "channel": "stable",
+  "updated_at": "2026-11-01",
+  "releases": [
+    {
+      "version": "1.4.0",
+      "at": "2026-11-01",
+      "note": "多门店数据隔离 · 在线升级机制 · 微信消息真实推送",
+      "steps": ["1.4.0_01_message_send_ext.php", "1.4.0_02_message_template_wx.php"]
+    }
+  ]
+}

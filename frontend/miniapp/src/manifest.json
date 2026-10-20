@@ -1,0 +1,20 @@
+{
+  "name": "上门服务预约",
+  "appid": "",
+  "description": "上门服务预约 · 顾客端微信小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "vueVersion": "3",
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {},
+    "requiredPrivateInfos": []
+  }
+}

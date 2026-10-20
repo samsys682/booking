@@ -1,0 +1,26 @@
+{
+    "name": "booking/booking-backend",
+    "description": "预约上门服务系统 booking · ThinkPHP8 后端 API",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/common.php"
+        ]
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
